@@ -12,7 +12,7 @@ function setup() {
 
     fill('hotpink');
     noStroke()
-    rect(i * rectWidth,width - rectHeight, rectWidth, rectHeight);
+    //rect(i * rectWidth,width - rectHeight, rectWidth, rectHeight);
   }
 }
 
