@@ -9,11 +9,10 @@ function setup() {
   for (var i = 0; i < baconWords.length; i++){
     var rectHeight = baconWords[i] * 60;
     var rectWidth = (width / baconWords.length);
-    console.log(rectWidth)
 
-    fill('#f338de');
+    fill('hotpink');
     noStroke()
-    rect(i * 10, width - rectHeight, rectWidth, rectHeight);
+    rect(i * rectWidth,width - rectHeight, rectWidth, rectHeight);
   }
 }
 
